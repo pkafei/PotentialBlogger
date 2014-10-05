@@ -1,0 +1,20 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}This is an example page{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-fixed-top">
+  <!-- ... -->
+</div>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <h1>Smart Blogger</h1>
+    <h2>There is really a science behind finding the right social media expert.</h2>
+    <h2>This is the sample form (basic)</h2>
+</div>
+{% endblock %}
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{url_for('.static', filename='style.css')}}">
+{% endblock %}
