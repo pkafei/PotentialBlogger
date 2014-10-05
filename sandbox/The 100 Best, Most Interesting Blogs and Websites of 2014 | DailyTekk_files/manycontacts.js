@@ -1,1 +1,0 @@
-var head=document.getElementsByTagName("head")[0],script=document.createElement("script");script.type="text/javascript",script.charset="utf-8",script.src="//s3.amazonaws.com/manycontacts-bars/"+window.__bID+".js",head.appendChild(script);
